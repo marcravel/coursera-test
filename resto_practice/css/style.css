@@ -1,0 +1,9 @@
+body {
+    background-color: brown;
+}
+
+#logo {
+    background-image: url('assets/logo.png') no-repeat;
+    width: 75px;
+    height: 75px;
+}

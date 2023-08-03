@@ -1,9 +1,155 @@
 body {
     background-color: brown;
+    font-family: 'Roboto Mono', monospace;
 }
 
-#logo {
-    background-image: url('assets/logo.png') no-repeat;
-    width: 75px;
-    height: 75px;
+#call-btn {
+    background-color: white;
+    border: 2px solid grey;
+    box-shadow: 0 0 50px black;
+    font-style: italic;
+    font-size: 16px;
+    font-weight: bolder;
+    color: brown;
+    border-radius: 4px;
+    /* padding: 10px 50px 10px 50px */
+}
+
+#call-btn:hover {
+    box-shadow: 0 0 50px #333;
+    border: 2px solid black;
+}
+
+.container .jumbotron {
+    box-shadow: 0 0 50px;
+    border: 2px solid black;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+#menu-tile, #special-tile, #map-tile {
+    position: relative;
+    height: 150px;
+    width: 280px;
+    margin: 0 auto 15px;
+    border: 2px solid black;
+    overflow: hidden;
+} 
+
+#menu-tile:hover, #special-tile:hover, #map-tile:hover {
+    box-shadow: 0 1px 5px 1px #cccccc;
+    border: #111111;
+}
+
+#menu-tile {
+    background: url('../assets/menu.jpg') no-repeat;
+    background-position: center;
+}
+
+#special-tile {
+    background: url('../assets/special.webp') no-repeat;
+    background-position: center;
+}
+
+#menu-tile span, #special-tile span, #map-tile span  {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.6em;
+    background-color: #000;
+    color: #fff;
+    opacity: .8;
+}
+/*---------*/
+#footer-panel {
+    width: 100%;
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 25px;
+    padding-left: 8vw;
+    padding-right: 8vw;
+}
+.footer-panel div.row {
+    margin-bottom: 35px;
+}
+#hours, #address {
+    line-height: 2;
+}
+#hours > span, #address > span {
+    font-size: 1.3em;
+}
+#address p {
+    color: #557c3e;
+    font-size: .8em;
+    line-height: 1.8;
+}
+#testimonials {
+    font-style: italic;
+}
+#testimonials p:nth-child(2) {
+    margin-top: 25px;
+}
+
+/*----------*/
+@media (min-width: 576px) and (max-width: 768px) {
+    #menu-tile, #special-tile, #map-tile {
+        width: 300px;
+    } 
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    #menu-tile, #special-tile, #map-tile {
+        height: 200px;
+        width: 100%;
+    } 
+    .container .jumbotron {
+        background: url('../assets/jumbotron-768.jpg') no-repeat;
+        height: 432px;
+        box-shadow: 0 0 50px;
+        border: 2px solid black;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    #menu-tile, #special-tile, #map-tile {
+        height: 200px;
+        width: 100%;
+    } 
+    .container .jumbotron {
+        background: url('../assets/jumbotron-992.jpg') no-repeat;
+        height: 558px;
+        box-shadow: 0 0 50px;
+        border: 2px solid black;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+    #menu-tile, #special-tile, #map-tile {
+        height: 200px;
+        width: 100%;
+    } 
+    .container .jumbotron {
+        background: url('../assets/jumbotron-1200.jpg') no-repeat;
+        height: 675px;
+        box-shadow: 0 0 50px;
+        border: 2px solid black;
+    }
+}
+
+@media (min-width: 1400px) {
+    #menu-tile, #special-tile, #map-tile {
+        height: 200px;
+        width: 100%;
+    } 
+    .container .jumbotron {
+        background: url('../assets/jumbotron-1400.jpg') no-repeat;
+        height: 788px;
+        box-shadow: 0 0 50px;
+        border: 2px solid black;
+    }
 }

@@ -1,6 +1,7 @@
 body {
     background-color: brown;
     font-family: 'Roboto Mono', monospace;
+    color: white;
 }
 
 #call-btn {
@@ -21,7 +22,7 @@ body {
 }
 
 .container .jumbotron {
-    box-shadow: 0 0 50px;
+    box-shadow: 0 0 50px black;
     border: 2px solid black;
     margin-top: 1em;
     margin-bottom: 1em;
@@ -63,6 +64,83 @@ body {
     color: #fff;
     opacity: .8;
 }
+.category-tile {
+    position: relative;
+    border: 2px solid black;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    margin: 0 auto 15px;
+}
+.category-tile span {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #000;
+    color: white;
+    opacity: .8;
+}
+.category-tile:hover {
+    box-shadow: 0 1px 5px 1px #cccccc;
+    border: #111111;
+}
+#menu-categories-title {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+#menu-categories-title + div {
+    margin-bottom: 15px;
+    font-size: small;
+}
+.menu-item-tile {
+    margin-bottom: 25px;
+}
+.menu-item-tile hr {
+    width: 80%;
+    margin: 15px auto 15px;
+}
+.menu-item-tile .menu-item-price {
+    font-size: .9em;
+    margin-top: -15px;
+    margin-right: -15px;
+    text-align: center;
+}
+.menu-item-tile .menu-item-price span {
+    font-size: .6em;
+}
+.menu-item-photo {
+    position: relative;
+    border: 2px solid black;
+    overflow: hidden;
+    padding: 0;
+    margin-right: -15px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    max-width: 250px;
+} 
+.menu-item-photo div {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 80px;
+    background-color: #557c3e;
+    text-align: center;
+}
+.menu-item-description {
+    padding-right: -30px;
+}
+h3.menu-item-title {
+    margin: 0 0 10px;
+}
+.menu-item-details {
+    font-size: .8em;
+    font-style: italic;
+}
+
 /*---------*/
 #footer-panel {
     width: 100%;
@@ -110,7 +188,7 @@ body {
     .container .jumbotron {
         background: url('../assets/jumbotron-768.jpg') no-repeat;
         height: 432px;
-        box-shadow: 0 0 50px;
+        box-shadow: 0 0 50px black;
         border: 2px solid black;
     }
 }
@@ -123,7 +201,7 @@ body {
     .container .jumbotron {
         background: url('../assets/jumbotron-992.jpg') no-repeat;
         height: 558px;
-        box-shadow: 0 0 50px;
+        box-shadow: 0 0 50px black;
         border: 2px solid black;
     }
 }
@@ -136,7 +214,7 @@ body {
     .container .jumbotron {
         background: url('../assets/jumbotron-1200.jpg') no-repeat;
         height: 675px;
-        box-shadow: 0 0 50px;
+        box-shadow: 0 0 50px black;
         border: 2px solid black;
     }
 }
@@ -149,7 +227,7 @@ body {
     .container .jumbotron {
         background: url('../assets/jumbotron-1400.jpg') no-repeat;
         height: 788px;
-        box-shadow: 0 0 50px;
+        box-shadow: 0 0 50px black;
         border: 2px solid black;
     }
 }

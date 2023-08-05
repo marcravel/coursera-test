@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My resto site</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,200;1,400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg bg-light mb-2">
+      <div class="container">
+        <a href="index.html" class="navbar-brand">
+          <img src="assets/logo.png" alt="logo" width="75" class="d-none d-lg-inline-block">Your Restaurant
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-4 mb-1 fw-semibold">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Menu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <!-- <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Dropdown
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li> -->
+            <li class="nav-item">
+              <a class="nav-link" href="#">Awards</a>
+            </li>
+          </ul>
+        </div>
+        <div class="d-flex justify-content-end d-none d-lg-inline-block mt-2">
+          <a href="tel:034 16 600 75" class="btn btn-outline-dark">034 16 600 75</a>
+          <p class="mx-3 text-black">* We Deliver</p>
+    </nav>
+  </header>
+  <div class="d-grid gap-2 col-6 mx-auto d-block d-lg-none">
+    <a href="tel:034 16 600 75" id="call-btn" class="btn" role="button">034 16 600 75 <br>* We deliver</a>
+  </div>
+  <!--Start of main content-->
+  <div id="main-content" class="container">
+    <h2 id="menu-categories-title" class="text-center">Lunch categories</h2>
+    <div class="text-center">Sakafo atoandro manomboka amin'ny 12 ora</div>
+
+    <section class="row">
+      <div class="menu-item-tile col-lg-6">
+        <div class="row">
+          <div class="col-lg-5 px-0">
+            <div class="menu-item-photo">
+              <div>D01</div>
+              <img class="img-fluid" src="../resto_practice/assets/menu/B/B-1.jpg" alt="Item" width="250" height="150">
+            </div>
+            <div class="menu-item-price">10.95$<span> (pint) </span>14.95$<span> (quart)</span></div>
+          </div>
+          <div class="menu-item-description col-lg-7">
+            <h3 class="menu-item-title">Veal with Mixed Vegetables</h3>
+            <div class="menu-item-details">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto temporibus,
+              magni sapiente ullam rerum pariatur consequuntur soluta natus veritatis doloribus alias sit dolore ad,
+              minus quis incidunt necessitatibus harum? Quis?Iusto temporibus,
+              magni sapiente ullam rerum pariatur consequuntur soluta natus veritatis doloribus alias sit dolore ad,
+              minus quis incidunt necessitatibus harum? Quis?Iusto temporibus,
+              magni sapiente ullam rerum pariatur consequuntur soluta natus veritatis doloribus alias sit dolore ad,
+              minus quis incidunt necessitatibus harum? Quis?</div>
+          </div>
+        </div>
+        <hr class="d-block d-lg-none">
+      </div>
+      
+      <div class="menu-item-tile col-lg-6">
+        <div class="row">
+          <div class="col-lg-5 px-0">
+            <div class="menu-item-photo">
+              <div>D02</div>
+              <img class="img-fluid" src="../resto_practice/assets/menu/B/B-2.jpg" alt="Item" width="250" height="150">
+            </div>
+            <div class="menu-item-price">10.95$<span> (pint) </span>14.95$<span> (quart)</span></div>
+          </div>
+          <div class="menu-item-description col-lg-7">
+            <h3 class="menu-item-title">Veal with Mixed Vegetables</h3>
+            <div class="menu-item-details">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto temporibus,
+              magni sapiente ullam rerum pariatur consequuntur soluta natus veritatis doloribus alias sit dolore ad,
+              minus quis incidunt necessitatibus harum? Quis?</div>
+          </div>
+        </div>
+        <hr class="d-block d-lg-none">
+      </div>
+
+      <div class="clearfix d-none d-lg-block"></div>
+      
+      <div class="menu-item-tile col-lg-6">
+        <div class="row">
+          <div class="col-lg-5 px-0">
+            <div class="menu-item-photo">
+              <div>D03</div>
+              <img class="img-fluid" src="../resto_practice/assets/menu/B/B-3.jpg" alt="Item" width="250" height="150">
+            </div>
+            <div class="menu-item-price">10.95$<span> (pint) </span>14.95$<span> (quart)</span></div>
+          </div>
+          <div class="menu-item-description col-lg-7">
+            <h3 class="menu-item-title">Veal with Mixed Vegetables</h3>
+            <div class="menu-item-details">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto temporibus,
+              magni sapiente ullam rerum pariatur consequuntur soluta natus veritatis doloribus alias sit dolore ad,
+              minus quis incidunt necessitatibus harum? Quis?</div>
+            </div>
+          </div>
+        <hr class="d-block d-lg-none">
+      </div>
+      
+      <div class="menu-item-tile col-lg-6">
+        <div class="row">
+          <div class="col-lg-5 px-0">
+            <div class="menu-item-photo">
+              <div>D04</div>
+              <img class="img-fluid" src="../resto_practice/assets/menu/B/B-4.jpg" alt="Item" width="250" height="150">
+            </div>
+            <div class="menu-item-price">10.95$<span> (pint) </span>14.95$<span> (quart)</span></div>
+          </div>
+          <div class="menu-item-description col-lg-7">
+            <h3 class="menu-item-title">Veal with Mixed Vegetables</h3>
+            <div class="menu-item-details">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto temporibus,
+              magni sapiente ullam rerum pariatur consequuntur soluta natus veritatis doloribus alias sit dolore ad,
+              minus quis incidunt necessitatibus harum? Quis?</div>
+            </div>
+          </div>
+          <hr class="d-block d-lg-none">
+        </div>
+        
+        <div class="clearfix d-none d-lg-block"></div>
+        
+        <div class="menu-item-tile col-lg-6">
+          <div class="row">
+          <div class="col-lg-5 px-0">
+            <div class="menu-item-photo">
+              <div>D05</div>
+              <img class="img-fluid" src="../resto_practice/assets/menu/B/B-5.jpg" alt="Item" width="250" height="150">
+            </div>
+            <div class="menu-item-price">10.95$<span> (pint) </span>14.95$<span> (quart)</span></div>
+          </div>
+          <div class="menu-item-description col-lg-7">
+            <h3 class="menu-item-title">Veal with Mixed Vegetables</h3>
+            <div class="menu-item-details">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto temporibus,
+              magni sapiente ullam rerum pariatur consequuntur soluta natus veritatis doloribus alias sit dolore ad,
+              minus quis incidunt necessitatibus harum? Quis?</div>
+            </div>
+          </div>
+          <hr class="d-block d-lg-none">
+        </div>
+        
+      <div class="menu-item-tile col-lg-6">
+        <div class="row">
+          <div class="col-lg-5 px-0">
+            <div class="menu-item-photo">
+              <div>D06</div>
+              <img class="img-fluid" src="../resto_practice/assets/menu/B/B-6.jpg" alt="Item" width="250" height="150">
+            </div>
+            <div class="menu-item-price">10.95$<span> (pint) </span>14.95$<span> (quart)</span></div>
+          </div>
+          <div class="menu-item-description col-lg-7">
+            <h3 class="menu-item-title">Veal with Mixed Vegetables</h3>
+            <div class="menu-item-details">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto temporibus,
+              magni sapiente ullam rerum pariatur consequuntur soluta natus veritatis doloribus alias sit dolore ad,
+              minus quis incidunt necessitatibus harum? Quis?</div>
+            </div>
+          </div>
+          <hr class="d-block d-lg-none">
+        </div>
+        
+        <div class="clearfix d-none d-lg-block"></div>
+
+      </section>
+    </div> <!--End of main content-->
+    
+  <footer id="footer-panel" class="container-fluid">
+    <div class="row">
+      <section id="hours" class="col-lg-4">
+        <span>Hours:</span><br>
+        Sun-Thurs: 11:15am - 10:00pm<br>
+        Fri: 11:15am - 2:30pm<br>
+        Saturday Closed
+        <hr class="d-block d-lg-none">
+      </section>
+      <section id="address" class="col-lg-4">
+        <span>Address:</span><br>
+        7105 Reisterstown Road<br>
+        Baltimore, MD 21215
+        <p>* Delivery area within 3-4 miles, with minimum order of $20 plus $3 charge for all deliveries.</p>
+        <hr class="d-block d-lg-none">
+      </section>
+      <section id="testimonials" class="col-lg-4">
+        <p>"The best Chinese restaurant I've been to! And that's saying a lot, since I've been to many!"</p>
+        <p>"Amazing food! Great service! Couldn't ask for more! I'll be back again and again!"</p>
+      </section>
+    </div>
+  </footer>
+
+
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>

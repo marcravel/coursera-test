@@ -1,0 +1,17 @@
+body {
+    background-color: brown;
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+}
+
+#heading-text {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 1.6em;
+}
+
+#main-text {
+    background-color: rgb(133, 35, 35);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
